@@ -5,7 +5,7 @@
 #
 
 # Inherit ih8sn Makefile
-$(call inherit-product, vendor/extra/external/ih8sn/product.mk)
+$(call inherit-product, external/ih8sn/product.mk)
 
 # MindTheGapps
 ifeq ($(INCLUDE_GAPPS), true)
