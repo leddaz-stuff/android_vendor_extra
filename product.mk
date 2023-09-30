@@ -16,6 +16,10 @@ $(call inherit-product-if-exists, vendor/gapps/arm/arm-vendor.mk)
 endif
 endif
 
+# Overlays
+PRODUCT_PACKAGES += \
+    CustomUpdaterOverlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
